@@ -36,3 +36,13 @@ body, p, span, div, a, button, input, textarea, ul, ol, li {
     --tw-shadow-colored: 5.54348px 38.8043px 110.87px var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
+
+.bg-slateGray {
+    --tw-bg-opacity: 1;
+    background-color: rgb(246 250 255 / var(--tw-bg-opacity));
+}
+
+.bg-deepSlate {
+    --tw-bg-opacity: 1;
+    background-color: rgb(213 239 250 / var(--tw-bg-opacity));
+}
