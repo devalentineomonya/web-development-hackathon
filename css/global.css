@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@300..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+body, p, span, div, a, button, input, textarea, ul, ol, li {
+  font-family: 'Rubik', sans-serif;
+}
+.shadow-service-shadow {
+    --tw-shadow: 0 40px 20px rgba(0,0,0,.15);
+    --tw-shadow-colored: 0 40px 20px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-input-shadow {
+    --tw-shadow: 0 63px 59px rgba(26,33,188,.1);
+    --tw-shadow-colored: 0 63px 59px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-testimonial-shadow1 {
+    --tw-shadow: 0 5.54348px 11.087px rgba(89,104,118,.05);
+    --tw-shadow-colored: 0 5.54348px 11.087px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+
+.shadow-testimonial-shadow2 {
+    --tw-shadow: 5.54348px 38.8043px 110.87px rgba(89,104,118,.15);
+    --tw-shadow-colored: 5.54348px 38.8043px 110.87px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
