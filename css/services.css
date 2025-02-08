@@ -1,0 +1,167 @@
+
+.logos {
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+    margin-top: 75px;
+}
+
+#services {
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+
+}
+
+h1 {
+    font-size: 2.9rem;
+    display: flex;
+    font-family: 'Space Grotesk', sans-serif;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 20px
+}
+
+.explore-link {
+
+    display: flex;
+    font-size: large;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    margin-right: 20px;
+
+}
+
+
+
+.card {
+
+
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    align-items: first baseline;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    --tw-shadow: 0 40px 20px rgba(0, 0, 0, .15);
+    --tw-shadow-colored: 0 40px 20px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.course-image {
+   width: 100%;
+    height: 245px;
+
+}
+.course-details {
+
+   display: flex;
+   justify-content: space-between;
+   margin: 20px 0;
+
+}
+.course-rating {
+
+    color: gold;
+    font-size: 28px;
+}
+.course-content{
+
+    position: relative;
+}
+.button{
+    
+    height: 100px;
+    width: 100px;
+    color: #f0f0f0;
+    background-color: blue;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    position: absolute;
+    right: 10px;
+    bottom: 220px;
+
+
+}
+
+
+.course-title{
+
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 10px;
+
+}
+.course-description{
+
+    margin-top: 21px;
+    margin-bottom: 20px;
+
+
+}
+.rate{
+    color: #b91c1c;
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 20px;
+
+}
+.course-footer{
+
+    margin: 20px 0;
+}
+.course-prize{
+
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;                 
+    align-items: center;           
+    padding: 20px;
+               
+    
+  }
+.icon-container{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;                     
+    align-items: center;        
+    margin-right: 20px;  
+}
+.details{
+
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+.icon-container i {
+    font-size: 24px;       
+    color: #007bff;
+}    
+    
+.clients{
+
+    display: flex;
+    justify-content: space-between;
+    color: #007bff;
+    margin-right: 10px;
+    font-size: 20px;
+    
+}
+
+   
